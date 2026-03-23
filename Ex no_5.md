@@ -1,27 +1,27 @@
-# EX 5 C program to calculate the total marks, average, and percentage of marks obtained in seven subjects.
-## DATE:
-## AIM:
-To write a C program to calculate the total marks, average, and percentage of marks obtained in seven subjects.
+# Experiment No: 1e – SEB-Minimum of Three float Numbers
 
-## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+## AIM  
+To write a Python program to find the minimum between three integer numbers using a conditional expression (Ternary operator).
 
-## Program:
+## ALGORITHM  
+1. **Input values:** Read three float numbers `a`, `b`, and `c` from user input.
+2. **Find maximum:** Use the `max()` function to find the largest among `a`, `b`, and `c`, and store it in `maxx`.
+3. **Prepare output:** Format a string that includes the values of `a`, `b`, `c`, and `maxx`.
+4. **Display result:** Print the formatted string showing the maximum value.
+5. **End program:** Program execution completes after displaying the result.
+
+
+## PROGRAM
+```python
+a=float(input())
+b=float(input())
+c=float(input())
+maxx=max(a,b,c)
+print(f"The maximum of {a}, {b}, {c} is {maxx}")
 ```
-/*
-Program to calculate the total marks, average, and percentage of marks obtained in seven subjects.
-Developed by: 
-RegisterNumber:  
-*/
-```
 
-## Output:
+## OUTPUT
+![Screenshot 2025-04-29 111437](https://github.com/user-attachments/assets/5fcfb9fa-b1d4-4fcb-b03a-b997527b66a1)
 
-
-
-## Result:
-Thus the program was executed and the output was verified successfully.
+## RESULT
+ Thus Python program to find the minimum between three integer numbers using a conditional expression (Ternary operator) is implemented successfully and verified
