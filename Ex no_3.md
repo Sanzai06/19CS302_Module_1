@@ -1,35 +1,54 @@
-# Experiment No: 1c-Varibles and Expressions, Operators - python program using the assignment operator ?=,%= on the given values.
 
-## AIM
-to write  the python program using the assignment operator ?=,%= on the given values..
+# EX 3 C program to find number of years based on principle,rate & simple interest.
 
-## ALGORITHM
-1.Input values: Read three integers a, b, and c from user input.
+## AIM:
+To write a C program to find number of years based on principle,rate & simple interest.
 
-2.Divide: Perform division b = b ÷ a and update b with the result (as a float).
+## Algorithm
+1.Start the program.
 
-3.Modulo: Perform modulo operation c = c % a and update c with the remainder.
+2.Declare variables for principal, rate, simple interest, and years.
 
-4.Print b: Output the new value of b.
+3.Read values of principal, rate, and simple interest.
 
-5.Print c: Output the new value of c.
+4.Use formula Years = (Simple Interest) / (Principal × Rate / 100) to compute years.
 
-## PROGRAM
-```python
+5.Display the number of years. 
 
-a=int(input())
-b=int(input())
-c=int(input())
-b/=a
-c%=a
-print(b)
-print(c)
+## Program:
+```
+/*
+Program to find number of years based on principle,rate & simple interest.
+
+*/
+
+#include <stdio.h>
+
+int main() {
+    float principal, rate, si, years;
+    
+    printf("Enter Principal: ");
+    scanf("%f", &principal);
+    
+    printf("Enter Rate: ");
+    scanf("%f", &rate);
+    
+    printf("Enter Simple Interest: ");
+    scanf("%f", &si);
+    
+    years = (si * 100) / (principal * rate);
+    
+    printf("Number of years = %.2f\n", years);
+    
+    return 0;
+}
 
 ```
 
-## OUTPUT
+## Output:
+![image](https://github.com/user-attachments/assets/d0d9ecec-43cd-4319-90e7-7452676c0718)
 
-![Screenshot 2025-04-29 110418](https://github.com/user-attachments/assets/eca5cf99-cacc-490e-8089-819f41b6bb6c)
 
-## RESULT
-Thus the python program using the assignment operator ?=,%= on the given values has been implemented and executed successfully.
+
+## Result:
+Thus the program was executed and the output was verified successfully.
