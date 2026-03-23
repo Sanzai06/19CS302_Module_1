@@ -1,35 +1,40 @@
-# Experiment No: 1a Python Basics- Printing Multiline String
+# EX 1 C program to initialize the value as 5.8 & display the same.
 
-## AIM  
-To create a Python program to print the string in multiple lines using triple quotes.
+## AIM:
+To write a program to initialize the value as 5.8 & display the same.
 
-## ALGORITHM  
-1. Begin the program.  
-2. Use triple quotes (`'''` or `"""`) to define a string that spans multiple lines.  
-3. Use the `print()` function to display the multi-line string.  
-4. Terminate the program.
+## Algorithm
+1. Start the program.
 
-## PROGRAM
-```python
+2. Declare a float variable.
 
+3. Initialize the float variable with the value 5.8.
 
-string_single_quotes = '''I am a string literal
-... has more than one
-... line
-... placed inside triple single quotes'''
+4. Display the float value using printf.
 
-string_double_quotes = """I am a string literal
-... has more than one
-... line
-... placed inside triple double quotes"""
+5. End the program.  
 
-print(string_single_quotes)
-print(string_double_quotes)
+## Program:
 ```
-## OUTPUT
+/*
+Program to initialize the value as 5.8 & display the same.
 
-![Screenshot 2025-04-29 104427](https://github.com/user-attachments/assets/f45455b5-37d8-4f4b-83ba-ca8feac02d25)
+*/
 
-## RESULT
+#include <stdio.h>
 
- thus Python program to print the string in multiple lines using triple quotes has verified successfully.
+int main()
+{
+    float num = 5.8;
+    printf("The value is: %.1f\n", num);
+    return 0;
+}
+
+```
+
+## Output:
+![image](https://github.com/user-attachments/assets/0ef4d33e-908b-4dc5-ba45-8d1cab042214)
+
+
+## Result:
+Thus the program was executed and the output was verified successfully.
