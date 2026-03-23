@@ -1,27 +1,56 @@
-# Experiment No: 1e – SEB-Minimum of Three float Numbers
 
-## AIM  
-To write a Python program to find the minimum between three integer numbers using a conditional expression (Ternary operator).
+# EX 5 C program to calculate the total marks, average, and percentage of marks obtained in seven subjects.
 
-## ALGORITHM  
-1. **Input values:** Read three float numbers `a`, `b`, and `c` from user input.
-2. **Find maximum:** Use the `max()` function to find the largest among `a`, `b`, and `c`, and store it in `maxx`.
-3. **Prepare output:** Format a string that includes the values of `a`, `b`, `c`, and `maxx`.
-4. **Display result:** Print the formatted string showing the maximum value.
-5. **End program:** Program execution completes after displaying the result.
+## AIM:
+To write a C program to calculate the total marks, average, and percentage of marks obtained in seven subjects.
+
+## Algorithm
+1.Start the program and declare an array for 7 subject marks.
+
+2.Input marks for all 7 subjects using a loop.
+
+3.Calculate total by summing all subject marks.
+
+4.Calculate average and percentage (percentage = total / max_total × 100).
+
+5.Display total, average, and percentage.
+## Program:
+```
+/*
+Program to calculate the total marks, average, and percentage of marks obtained in seven subjects.
 
 
-## PROGRAM
-```python
-a=float(input())
-b=float(input())
-c=float(input())
-maxx=max(a,b,c)
-print(f"The maximum of {a}, {b}, {c} is {maxx}")
+#include <stdio.h>
+
+int main()
+{
+    int marks[7], i, total = 0;
+    float average, percentage;
+
+    printf("Enter marks for 7 subjects:\n");
+    for(i = 0; i < 7; i++)
+    {
+        scanf("%d", &marks[i]);
+        total += marks[i];
+    }
+
+    average = total / 7.0;
+    percentage = (total / 700.0) * 100;
+
+    printf("Total Marks = %d\n", total);
+    printf("Average Marks = %.2f\n", average);
+    printf("Percentage = %.2f%%\n", percentage);
+
+    return 0;
+}
+
+
 ```
 
-## OUTPUT
-![Screenshot 2025-04-29 111437](https://github.com/user-attachments/assets/5fcfb9fa-b1d4-4fcb-b03a-b997527b66a1)
+## Output:
 
-## RESULT
- Thus Python program to find the minimum between three integer numbers using a conditional expression (Ternary operator) is implemented successfully and verified
+![image](https://github.com/user-attachments/assets/1e1eb468-a26a-492d-bbd5-ce767633f47d)
+
+
+## Result:
+Thus the program was executed and the output was verified successfully.
