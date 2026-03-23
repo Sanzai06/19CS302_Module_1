@@ -1,27 +1,35 @@
-# EX 1 C program to initialize the value as 5.8 & display the same.
-## DATE:
-## AIM:
-To write a program to initialize the value as 5.8 & display the same.
+# Experiment No: 1a Python Basics- Printing Multiline String
 
-## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+## AIM  
+To create a Python program to print the string in multiple lines using triple quotes.
 
-## Program:
+## ALGORITHM  
+1. Begin the program.  
+2. Use triple quotes (`'''` or `"""`) to define a string that spans multiple lines.  
+3. Use the `print()` function to display the multi-line string.  
+4. Terminate the program.
+
+## PROGRAM
+```python
+
+
+string_single_quotes = '''I am a string literal
+... has more than one
+... line
+... placed inside triple single quotes'''
+
+string_double_quotes = """I am a string literal
+... has more than one
+... line
+... placed inside triple double quotes"""
+
+print(string_single_quotes)
+print(string_double_quotes)
 ```
-/*
-Program to initialize the value as 5.8 & display the same.
-Developed by: 
-RegisterNumber:  
-*/
-```
+## OUTPUT
 
-## Output:
+![Screenshot 2025-04-29 104427](https://github.com/user-attachments/assets/f45455b5-37d8-4f4b-83ba-ca8feac02d25)
 
+## RESULT
 
-
-## Result:
-Thus the program was executed and the output was verified successfully.
+ thus Python program to print the string in multiple lines using triple quotes has verified successfully.
